@@ -100,3 +100,4 @@ alias tools-docker="docker start $(docker ps -a | grep "lagidock" | awk '{print 
 
 export GOPATH=$HOME/go
 eval "$(thefuck --alias)"
+source $HOME/.aliases.zsh
